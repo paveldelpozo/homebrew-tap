@@ -4,28 +4,28 @@
 class Repoke < Formula
   desc "Finds the package managers on your system and keeps them up to date"
   homepage "https://github.com/paveldelpozo/repoke"
-  version "0.7.0"
+  version "0.8.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/paveldelpozo/repoke/releases/download/v0.7.0/repoke-aarch64-apple-darwin.tar.gz"
-      sha256 "f52f799b97195c72bf8b2b84602dee2fe3b93a3884ea3a908e76eef95adf320b"
+      url "https://github.com/paveldelpozo/repoke/releases/download/v0.8.0/repoke-aarch64-apple-darwin.tar.gz"
+      sha256 "241b0b8e2614733b454b34c415bbebfa5ce6d20aa4f1e8569a93820a6ab65ef3"
     end
     on_intel do
-      url "https://github.com/paveldelpozo/repoke/releases/download/v0.7.0/repoke-x86_64-apple-darwin.tar.gz"
-      sha256 "a1192b5579b0d3dfd31875f69aaa6c89402b05d3a45e4b4da58593a18840f8ab"
+      url "https://github.com/paveldelpozo/repoke/releases/download/v0.8.0/repoke-x86_64-apple-darwin.tar.gz"
+      sha256 "7d89a038703d27b6fd500b5816204b1201d30bb2e67b4710ab47f3961a8a3e78"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/paveldelpozo/repoke/releases/download/v0.7.0/repoke-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "bb02844d6895bf3e429b26249bdb650d0080323eecf93aa57044466a811f483b"
+      url "https://github.com/paveldelpozo/repoke/releases/download/v0.8.0/repoke-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "86c3154d5f1cd95188511fd5e499051a6786283fd9a74f1fe7c7d23a17a2a5f2"
     end
     on_intel do
-      url "https://github.com/paveldelpozo/repoke/releases/download/v0.7.0/repoke-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "7abb35c92a46a8445eff2120248e989869bcfb54d8fbf1201b281b284ec566e4"
+      url "https://github.com/paveldelpozo/repoke/releases/download/v0.8.0/repoke-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ff3d0b65f8815c7b6a3870f6af536fbfe02ebbb3e3d192d54f7242293a3a1063"
     end
   end
 
